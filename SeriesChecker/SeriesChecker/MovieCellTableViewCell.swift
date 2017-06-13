@@ -20,5 +20,19 @@ class MovieCellTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    @IBOutlet weak var ImageView: UIImageView!
+    
+    @IBOutlet weak var movieTitleLabel: UILabel!
+    
+    @IBOutlet weak var synopsisLabel: UILabel!
+    
+    //@property (nonatomic, weak) IBOutlet UIImageView *posterView;
+    
+    //@property (nonatomic, weak) IBOutlet UILabel *movieTitleLabel;
+    
+    //@property (nonatomic, weak) IBOutlet UILabel *synopsisLabel;
+    
+    
 
 }

@@ -10,10 +10,8 @@ import Foundation
 
 import UIKit
 
-class ControllerMain: UITableViewController {
+class MoviesTableViewController: UITableViewController {
     
     
-    @IBAction func test2(_ sender: UIButton) {
-    }
     
 }

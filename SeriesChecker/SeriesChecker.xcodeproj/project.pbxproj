@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E28AC37F1EEF221E00A1425E /* MovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AC37E1EEF221E00A1425E /* MovieCellTableViewCell.swift */; };
 		E2926E011EE605B800478D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E001EE605B800478D04 /* AppDelegate.swift */; };
 		E2926E031EE605B800478D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E021EE605B800478D04 /* ViewController.swift */; };
 		E2926E081EE605B800478D04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2926E071EE605B800478D04 /* Assets.xcassets */; };
 		E2926E0B1EE605B800478D04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2926E091EE605B800478D04 /* LaunchScreen.storyboard */; };
 		E2926E161EE605B800478D04 /* SeriesCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E151EE605B800478D04 /* SeriesCheckerTests.swift */; };
-		E2926E211EE6094100478D04 /* ControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E201EE6094100478D04 /* ControllerMain.swift */; };
+		E2926E211EE6094100478D04 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E201EE6094100478D04 /* MoviesTableViewController.swift */; };
 		E2926E261EE6145000478D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2926E241EE6145000478D04 /* Main.storyboard */; };
 		E2926E281EE6248300478D04 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E271EE6248300478D04 /* Serie.swift */; };
 		E2926E2A1EE6270100478D04 /* Episodio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926E291EE6270100478D04 /* Episodio.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E28AC37E1EEF221E00A1425E /* MovieCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCellTableViewCell.swift; sourceTree = "<group>"; };
 		E2926DFD1EE605B800478D04 /* SeriesChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeriesChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2926E001EE605B800478D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2926E021EE605B800478D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SeriesChecker/ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +41,7 @@
 		E2926E111EE605B800478D04 /* SeriesCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeriesCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2926E151EE605B800478D04 /* SeriesCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCheckerTests.swift; sourceTree = "<group>"; };
 		E2926E171EE605B800478D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2926E201EE6094100478D04 /* ControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerMain.swift; path = SeriesChecker/ControllerMain.swift; sourceTree = "<group>"; };
+		E2926E201EE6094100478D04 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesTableViewController.swift; path = SeriesChecker/MoviesTableViewController.swift; sourceTree = "<group>"; };
 		E2926E251EE6145000478D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2926E271EE6248300478D04 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serie.swift; path = SeriesChecker/Serie.swift; sourceTree = "<group>"; };
 		E2926E291EE6270100478D04 /* Episodio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Episodio.swift; path = SeriesChecker/Episodio.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				E2926E071EE605B800478D04 /* Assets.xcassets */,
 				E2926E091EE605B800478D04 /* LaunchScreen.storyboard */,
 				E2926E0C1EE605B800478D04 /* Info.plist */,
+				E28AC37E1EEF221E00A1425E /* MovieCellTableViewCell.swift */,
 			);
 			name = View;
 			path = SeriesChecker;
@@ -118,7 +121,7 @@
 		E2926E2C1EE62AC900478D04 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E2926E201EE6094100478D04 /* ControllerMain.swift */,
+				E2926E201EE6094100478D04 /* MoviesTableViewController.swift */,
 				E2926E021EE605B800478D04 /* ViewController.swift */,
 				E2926E2D1EE62BC000478D04 /* EpisodioViewController.swift */,
 			);
@@ -230,9 +233,10 @@
 			files = (
 				E2926E2E1EE62BC000478D04 /* EpisodioViewController.swift in Sources */,
 				E2926E031EE605B800478D04 /* ViewController.swift in Sources */,
-				E2926E211EE6094100478D04 /* ControllerMain.swift in Sources */,
+				E2926E211EE6094100478D04 /* MoviesTableViewController.swift in Sources */,
 				E2926E2A1EE6270100478D04 /* Episodio.swift in Sources */,
 				E2926E281EE6248300478D04 /* Serie.swift in Sources */,
+				E28AC37F1EEF221E00A1425E /* MovieCellTableViewCell.swift in Sources */,
 				E2926E011EE605B800478D04 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				E2926E1C1EE605B800478D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2926E1D1EE605B800478D04 /* Build configuration list for PBXNativeTarget "SeriesCheckerTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				E2926E1F1EE605B800478D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
